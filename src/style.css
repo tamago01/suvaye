@@ -1,0 +1,105 @@
+/* SearchBar styles */
+.search-bar {
+    width: 100%; 
+    margin-bottom: 1rem;
+   
+  }
+  
+  .search-input {
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .search-button {
+    background-color: #3490dc;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  /* DefinitionTabs styles */
+  .tabs {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .tab {
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .tab.active {
+    background-color: #3490dc;
+    color: white;
+  }
+  
+  /* DefinitionList styles */
+  .definition-list {
+    margin-bottom: 1rem;
+  }
+  
+  .definition-item {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* AudioPlayer styles */
+  .audio-player {
+    margin-bottom: 1rem;
+  }
+  
+  .audio {
+    margin-bottom: 0.5rem;
+  }
+  
+  .play-button {
+    background-color: #3490dc;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .play-button.playing {
+    background-color: #e53e3e;
+  }
+  /* Hover effect */
+.play-button:hover {
+  background-color: #31ce9f;
+  }
+.search-button:hover {
+  background-color:  #31ce9f;
+  }
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    max-width: 200px; 
+    height: auto;
+  }
+  .logo1-container {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-bottom: 20px;
+  }
+  .logo1 {
+    max-width: 50px;
+    height: auto;
+    
+  }
+  .p {
+    font-size: large ;
+    font-variant: normal;
+  }
+  
